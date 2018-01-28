@@ -18,7 +18,6 @@ function iLoveTheBeatles(number){
   let array = [];
   do {
     array.push("I love the Beatles!");
-    --number;
   } while (number <15 && number > 0);
   return array;
 }
